@@ -1,0 +1,37 @@
+body{
+  background-image:radial-gradient(#000,#a9a9a9);
+  min-height:768px;
+  overflow:hidden}
+div{
+  position:absolute;
+  transition:1s}
+#主{
+/*background cyan*/
+  height:1px;
+  left:25%;
+  top:35%;
+  width:683px;
+  -webkit-animation:Ani 3s infinite;
+  perspective:1000000px;
+  transform:rotate3D(-1,0,0,27deg);
+  transform-style:preserve-3D}
+#一{
+  background:#f00;
+  height:700px;
+  top:-100px;
+  width:100%;
+  transform:rotateX(90deg)}
+#一~*{background-image:radial-gradient(#f00,#006400,#00008b);
+  border:3px solid #0ff;
+  border-radius:50% 50% 0 0;
+  color:#fff;
+  height:250px;
+  font-size:15em;
+  text-align:center;
+  top:50%;
+  width:100%}
+#一~*:nth-child(odd){transform:rotate3D(0,1,0,90deg)}
+#二{transform:translateZ(-350px)}
+#三{left:50%}
+#四{transform:translateZ(350px)}
+#五{left:-50%}
