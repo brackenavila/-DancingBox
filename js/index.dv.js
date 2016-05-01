@@ -21,7 +21,6 @@
    for(l in 中){
     i.nw('DIV',{id:中[l],innerHTML:中[l]})
     /*console.log(*/x+=25*l+'%{'+d+(l%2?l>2?-3:3:0)+b+'}\n'/*)*/}
-    i.nw('audio',{src:'回音哥-居家男人.mp3',autoplay:1})
     setTimeout(f('',
      "i.sty(x+'_'+i.s+'_'+'#主{'+w+'animation:Ani 3s 1')"+
      'i.d.scripts[0].remove()'+
